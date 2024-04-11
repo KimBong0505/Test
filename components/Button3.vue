@@ -9,7 +9,7 @@
   width: 150px;
   height: 40px;
   line-height: 40px;
-  background-color: #f33f63;
+  background-color: #c76175;
   color: #ffffff;
   font-weight: bold;
   border-radius: 15px;
