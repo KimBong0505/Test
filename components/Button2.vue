@@ -1,15 +1,15 @@
 <template>
   <div>
-    <button class="btn1">ボタン1</button>
+    <button class="btn2">ボタン2</button>
   </div>
 </template>
 
 <style>
-.btn1 {
+.btn2 {
   width: 150px;
   height: 40px;
   line-height: 40px;
-  background-color: #00a656;
+  background-color: #6840d6;
   color: #ffffff;
   font-weight: bold;
   border-radius: 15px;
