@@ -8,7 +8,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 * {
   box-sizing: border-box;
   -moz-box-sizing: border-box;
