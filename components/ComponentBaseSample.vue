@@ -11,6 +11,7 @@
 //------------------------------------------------------------------------------------------------------------
 interface Props {
   color: string;
+  backColor: string;
 }
 const props = withDefaults(defineProps<Props>(), {
   color: "#000",
