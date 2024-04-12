@@ -4,12 +4,12 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .btn3 {
   width: 150px;
   height: 40px;
   line-height: 40px;
-  background-color: #c76175;
+  background-color: #ecc0c9;
   color: #ffffff;
   font-weight: bold;
   border-radius: 15px;

@@ -1,6 +1,11 @@
 <template>
-    <div>
+  <!-- <div>
        <h1>first Page</h1>
         
-    </div>
+    </div> -->
+  <div>
+    <Button />
+    <Button2 />
+    <Button3 />
+  </div>
 </template>
