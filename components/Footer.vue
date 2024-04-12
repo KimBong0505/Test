@@ -4,7 +4,7 @@
   </div>
 </template>
 
-<style>
+<style lang="scss" scoped>
 .footer {
   position: absolute;
   bottom: 0;
