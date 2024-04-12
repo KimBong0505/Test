@@ -1,6 +1,9 @@
 <template>
-  <div>
+  <!-- <div>
     <button class="btn1">ボタン1</button>
+  </div> -->
+  <div>
+    <button class="btn1"><slot /></button>
   </div>
 </template>
 
