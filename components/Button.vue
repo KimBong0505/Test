@@ -1,16 +1,29 @@
 <template>
   <div>
-    <button class="btn">ボタン！</button>
+    <button :style="{ backgroundColor: backColor, color: color }" class="btn">
+      <slot></slot>
+    </button>
   </div>
 </template>
 
-<style>
+<script setup lang="ts">
+const props = defineProps({
+  backColor: {
+    type: String,
+    default: "#ccc",
+  },
+  color: {
+    type: String,
+    default: "#fff",
+  },
+});
+</script>
+
+<style scoped lang="scss">
 .btn {
   width: 150px;
   height: 40px;
   line-height: 40px;
-  background-color: #00a656;
-  color: #ffffff;
   font-weight: bold;
   border-radius: 15px;
   border: none;
